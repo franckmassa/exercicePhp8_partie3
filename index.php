@@ -1,6 +1,3 @@
-<?php
-$number1 = 200;
- ?>
  <!DOCTYPE html>
  <html lang="fr">
    <head>
@@ -11,9 +8,8 @@ $number1 = 200;
 <p>
 <?php
 //On décrémente de 200 à 0 avec un pas de 12
-while($number1 > 0){
+for($number1 = 200; $number1 > 0; $number1 -= 12){
   echo $number1 . ' Enfin !!!!'.'<br/>';
-  $number1 -= 12;
 }
  ?>
 </p>
